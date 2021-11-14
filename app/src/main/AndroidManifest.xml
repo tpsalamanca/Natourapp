@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Natourapp">
         <activity
+            android:name=".Activity4"
+            android:exported="false"
+            android:label="@string/title_activity_4"
+            android:theme="@style/Theme.Natourapp.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
